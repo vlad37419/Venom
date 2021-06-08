@@ -1,6 +1,6 @@
 # Venom
-В проекте используется:
--HTML
--CSS
--JavaScript
--Normalize CSS
+#В проекте используется:
+- HTML
+- CSS
+- JavaScript
+- Normalize CSS
