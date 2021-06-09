@@ -6,8 +6,7 @@ body {
 }
 
 .blood {
-	background: url(../img/blood.png) no-repeat top right, #14131A url(../img/bakcground.jpg) no-repeat center center / 100%;
-	
+	background:  url(../img/blood.png) no-repeat top right, url(../img/background.jpg) no-repeat center top / cover, #14131A;
 }
 
 .container {
