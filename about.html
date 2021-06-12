@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>О фильме</title>
+  <title>Venom-2 (О фильме)</title>
 </head>
 
 <body class="primory-bg">
@@ -29,9 +29,7 @@
         </button>
         <ul class="nav-menu">
           <li class="nav-menu-item"><a href="#" class="nav-menu-link">О фильме</a></li>
-          <li class="nav-menu-item"><a href="#" class="nav-menu-link">Трейлер</a></li>
-          <li class="nav-menu-item"><a href="#" class="nav-menu-link">Актёры</a></li>
-          <li class="nav-menu-item"><a href="#" class="nav-menu-link">Премьера</a></li>
+          <li class="nav-menu-item"><a href="trailer.html" class="nav-menu-link">Трейлер</a></li>
         </ul>
       </nav>
     </header>
@@ -55,9 +53,9 @@
           <li class="list-item">Пегги Лу</li>
         </ul>
         <div class="trailer">
-          <button class="play">
+          <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="play">
             <img width="15" src="img/play.svg" alt="icon: play" class="play-icon">
-          </button>
+          </a>
         </div>
       </div> 
       <div class="column">
@@ -84,6 +82,9 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 

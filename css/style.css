@@ -17,6 +17,10 @@ img {
 	background: url(../img/background.jpg) no-repeat center top / cover, #14131A;
 }
 
+.page-trailer {
+	background: url(../img/background.jpg) no-repeat center top / cover, #14131A;
+}
+
 .container {
 	max-width: 1140px;
 	width: 90%;
@@ -113,7 +117,7 @@ img {
 	top: 0;
 	right: 0;
 	max-width: 729px;
-	width: 43%;
+	width: 30%;
 }
 
 .content {
@@ -173,12 +177,15 @@ img {
 .content .trailer {
 	width: 356px;
 	height: 205px;
-	background: url(../img/trailer.jpg) no-repeat center / contain;
+	background: url(../img/trailer.jpg) no-repeat center / 100%;
 	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 33px;
+	margin-right: 0;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 
 .trailer .play {
@@ -187,10 +194,10 @@ img {
 	border-radius: 50%;
 	border: none;
 	cursor: pointer;
-}
-
-.play-icon {
-	transform: translate(1px, 2px);
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .poster-wrapper {
@@ -217,6 +224,21 @@ img {
 	display: none;
 }
 
+.page-trailer .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-trailer .content-title {
+	text-align: center;
+}
+
+.page-trailer .trailer {
+	max-width: 1000px;
+	width: 100%;
+}
+
 @media (max-width: 1090px) {
 	.header {
 		margin-bottom: 4%;
@@ -234,15 +256,15 @@ img {
 	.film {
 		margin-top: 20%;
 	}
+
+	.venom {
+		top: 20%;
+	}
 }
 
 @media (max-width: 768px) {
 	.blood {
 		background: #14131A;
-	}
-
-	.venom {
-		top: 20%;
 	}
 }
 
@@ -346,5 +368,9 @@ img {
 	.is-active {
 		transform: translateX(0);
 		opacity: 1;
+	}
+
+	.page-trailer .content-title {
+		font-size: 28px;
 	}
 }
