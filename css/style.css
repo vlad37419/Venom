@@ -10,15 +10,15 @@ img {
 }
 
 .blood {
-	background:  url(../img/blood.png) no-repeat top right / 70%, url(../img/background.jpg) no-repeat center top / cover, #14131A;
+	background:  url(../img/blood.png) no-repeat top right / 70%, url(../img/background.jpg) no-repeat center top / cover fixed, #14131A;
 }
 
 .primory-bg {
-	background: url(../img/background.jpg) no-repeat center top / cover, #14131A;
+	background: url(../img/background.jpg) no-repeat center top / cover fixed, #14131A;
 }
 
 .page-trailer {
-	background: url(../img/background.jpg) no-repeat center top / cover, #14131A;
+	background: url(../img/background.jpg) no-repeat center top / cover fixed, #14131A;
 }
 
 .container {
@@ -184,7 +184,7 @@ img {
 	justify-content: center;
 	margin-top: 33px;
 	margin-right: 0;
-	padding-bottom: 5%;
+	margin-bottom: 15px;
 	padding-top: 5%;
 }
 
@@ -266,12 +266,6 @@ img {
 
 	.venom {
 		top: 20%;
-	}
-}
-
-@media (max-width: 768px) {
-	.blood {
-		background: #14131A;
 	}
 }
 
