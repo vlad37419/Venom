@@ -177,7 +177,7 @@ img {
 .content .trailer {
 	width: 356px;
 	height: 205px;
-	background: url(../img/trailer.jpg) no-repeat center / 100%;
+	background: url(../img/trailer.jpg) no-repeat center / cover;
 	border-radius: 5px;
 	display: flex;
 	align-items: center;
@@ -234,7 +234,15 @@ img {
 	text-align: center;
 }
 
+.page-trailer .column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 .page-trailer .trailer {
+	max-width: 500px;
 	width: 100%;
 }
 
